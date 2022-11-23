@@ -1,18 +1,21 @@
-/* Reset */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 /* Utils */
 body{
     font-family: sans-serif;
 }
 
-/** Generics **/
-.container{
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
+.row{
+    margin: 30px 0;
+}
+/* columns */
+
+[class^="col"]{
+    min-height: 70px;
+    background-color: blue;
+    border: 1px solid white;
+    padding: 0 10px;
+}
+.nested{
+    background-color: lightgreen;
+    border: 1px solid blue;
 }
