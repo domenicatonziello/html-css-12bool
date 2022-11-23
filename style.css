@@ -1,0 +1,18 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Utils */
+body{
+    font-family: sans-serif;
+}
+
+/** Generics **/
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
